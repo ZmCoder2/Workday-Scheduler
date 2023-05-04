@@ -14,5 +14,5 @@ The users can put text into a time box of their choosing and click a save button
 ![Screenshot 2023-04-17 at 9 37 39 PM](https://user-images.githubusercontent.com/126508376/233207054-eb8d15a9-0393-4dac-8304-4e70c4d1b439.png)
 
 
-## https://github.com/ZmCoder2/Work-Day-Scheduler.git
-## https://zmcoder2.github.io/Work-Day-Scheduler/
+## https://zmcoder2.github.io/Workday-Scheduler/
+## https://github.com/ZmCoder2/Workday-Scheduler.git
