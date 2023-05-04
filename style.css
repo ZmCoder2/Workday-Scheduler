@@ -1,0 +1,71 @@
+/* gives the text displayed on the page the sans serif font */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+.row {
+  border-top: 1px solid white;
+}
+
+/* the borders around the times are dashed */
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+/* the time boxes turn gray when they are in the past */
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+/* time box turns red when it is that time */
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+/* the future time boxes will display green when those times have not happened yet */
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+/* positioning for the text boxes also gives the save buttons a blue background color */
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+/* give the save button to enlarge and enlarge when the user hovers over*/
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* gives the text the user puts in the text box black font color */
+#toDo {
+  color: #000000;
+}
